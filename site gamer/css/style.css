@@ -1,0 +1,435 @@
+.mainpage {
+  background-color: rgb(64, 64, 64);
+  margin: 0px;
+  background-image: url(../fundo\ mais\ simples.png);
+  background-size: 1350px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-top: 180px;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.logo {
+  display: grid;
+  width: auto;
+  max-width: 120px;
+  height: 120px;
+  padding: 10px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  max-width: 100%;
+  place-content: space-around;
+  opacity: 1;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
+
+.botao {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  background-color: rgba(41, 41, 41, 0.4);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 40px;
+  border-radius: 40px;
+  font-family: fodase;
+  letter-spacing: 1px;
+}
+
+.botao:hover {
+  background-image: linear-gradient(
+    to right,
+    #e7484f,
+    #e7484f 16.65%,
+    #f68b1d 16.65%,
+    #f68b1d 33.3%,
+    #fced00 33.3%,
+    #fced00 49.95%,
+    #009e4f 49.95%,
+    #009e4f 66.6%,
+    #00aac3 66.6%,
+    #00aac3 83.25%,
+    #732982 83.25%,
+    #732982 100%,
+    #e7484f 100%
+  );
+  animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+
+.popup {
+  background-image: url(../fundo\ com\ escudo.png);
+  background-size: 270px;
+  display: flex;
+  flex-wrap: no-wrap;
+  margin-top: -64px; /*nao mudar*/
+  align-content: center;
+  height: auto;
+  width: 100%;
+  padding-bottom: 100px;
+  border-top: 2px solid #732982;
+  border-bottom: 2px solid #732982;
+}
+
+.bemvindo {
+  font-family: fodase;
+  margin-left: 200px;
+}
+
+.texto1 {
+  font-size: 13vw;
+  margin-bottom: -15px;
+}
+
+.subtexto {
+  font-size: 1.5vw;
+}
+
+.detalhe {
+  height: 240px;
+  width: 4px;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+  position: absolute;
+  top: 690px;
+  left: 130px;
+}
+
+.patrocinios {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.rodape {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(36, 36, 36);
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 11px;
+  box-sizing: border-box;
+  border-top: 2px solid #732982;
+}
+
+.power {
+  font-family: fodase;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.pooltop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.toplaner {
+  background-image: url(../fundo\ toplane.png);
+  background-color: rgb(64, 64, 64);
+  background-size: 1350px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0px;
+}
+
+.jungle {
+  background-image: url(../fundo\ JUNGLE.png);
+  background-color: rgb(64, 64, 64);
+  background-size: 1350px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0px;
+}
+
+.adc {
+  background-image: url(../fundo\ botlane.png);
+  background-color: rgb(64, 64, 64);
+  background-size: 1350px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0px;
+}
+
+.mid {
+  background-image: url(../fundo\ mid.png);
+  background-color: rgb(64, 64, 64);
+  background-size: 1350px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0px;
+}
+
+.sup {
+  background-image: url(../fundo\ sup.png);
+  background-color: rgb(64, 64, 64);
+  background-size: 1350px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0px;
+}
+.champtop {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.chargebar {
+  background-image: url(../fundo\ com\ escudo.png);
+  background-size: 300px;
+  border-top: 2px solid #732982;
+  border-bottom: 2px solid #732982;
+  margin-top: 100px;
+}
+
+.barras {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  margin-left: 320px;
+  margin-right: 320px;
+}
+
+p {
+  font-family: fodase;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -70px;
+}
+
+.nome {
+  display: flex;
+  flex-wrap: no-wrap;
+  max-width: 100%;
+  place-content: space-around;
+  font-family: fodase;
+  color: white;
+}
+
+.ivory {
+  letter-spacing: 9px;
+  font-size: 8vw;
+  margin-top: 150px;
+  margin-left: 180px;
+}
+
+.king {
+  letter-spacing: 9px;
+  font-size: 8vw;
+  margin-top: 150px;
+  margin-right: 180px;
+}
+
+.pikeno {
+  letter-spacing: 9px;
+  font-size: 8vw;
+  margin-top: 150px;
+  margin-left: 600px;
+}
+
+.coringa {
+  letter-spacing: 9px;
+  font-size: 8vw;
+  margin-top: 150px;
+  margin-right: 600px;
+}
+
+.ivoryking {
+  display: flex;
+  place-content: center;
+  margin-left: -200px;
+  margin-right: -200px;
+  object-fit: cover;
+}
+.Pikenocoringa {
+  display: flex;
+  place-content: center;
+  margin-left: -250px;
+  margin-right: -250px;
+  margin-bottom: -851px;
+  object-fit: cover;
+}
+
+.leninchave {
+  display: flex;
+  place-content: center;
+  margin-left: -250px;
+  margin-right: -250px;
+  margin-bottom: -851px;
+  object-fit: cover;
+}
+
+.detalhe1 {
+  height: 5px;
+  width: 400px;
+  background-image: linear-gradient(
+    to right,
+    #e7484f,
+    #f68b1d,
+    #fced00,
+    #009e4f,
+    #00aac3,
+    #732982
+  );
+  display: block;
+  position: relative;
+  margin-left: 490px;
+  margin-bottom: 100px;
+}
+
+.descriçao {
+  font-family: fodase;
+  font-size: 3vw;
+  padding: 50px;
+  margin-bottom: -1px;
+  margin-top: 200px;
+  background-image: url(../fundo\ com\ escudo.png);
+  background-size: 270px;
+  border-top: 2px solid #732982;
+  border-bottom: 2px solid #732982;
+  margin-top: -64px;
+}
+
+.fundo {
+  margin: 0;
+  background-color: rgb(64, 64, 64);
+}
+
+.titulo-loja {
+  text-align: center;
+  font-family: fodase;
+  font-size: 4vw;
+  padding: 20px;
+  margin-top: -20px;
+  color: white;
+}
+
+.item {
+  background-color: rgb(26, 26, 26);
+  font-family: fodase;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  border: 2px solid #732982;
+  text-align: center;
+}
+
+.preço {
+  color: rgb(185, 40, 204);
+}
+
+.sublinhado {
+  height: 5px;
+  width: 400px;
+  background-image: linear-gradient(
+    to right,
+    #e7484f,
+    #f68b1d,
+    #fced00,
+    #009e4f,
+    #00aac3,
+    #732982
+  );
+  display: block;
+  position: relative;
+  margin-left: 475px;
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+
+.produto {
+  width: 35%;
+  border: 2px solid #732982;
+  border-radius: 4px;
+  padding-right: 40px;
+  padding-left: 40px;
+  overflow: hidden;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.produto:hover {
+  -moz-transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.produto:hover {
+  width: 55%;
+}
+
+.produtos {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-image: url(../fundo\ com\ escudo.png);
+  background-size: 300px;
+  border-top: 2px solid #732982;
+  border-bottom: 2px solid #732982;
+  padding: 20px;
+}
+
+.sobre {
+  font-family: fodase;
+  font-size: 3vw;
+  padding: 50px;
+  margin-bottom: -1px;
+  margin-top: 200px;
+  background-image: url(../fundo\ com\ escudo.png);
+  background-size: 270px;
+  border-top: 2px solid #732982;
+  border-bottom: 2px solid #732982;
+  margin-top: 64px;
+}
+
+.titulo-time {
+  text-align: center;
+  font-family: fodase;
+  font-size: 4vw;
+  padding: 20px;
+  margin-top: -20px;
+  margin-bottom: -100px;
+  color: white;
+}
+
+.obs {
+  font-family: fodase;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: -60px;
+}
